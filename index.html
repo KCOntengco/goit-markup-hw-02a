@@ -3,33 +3,42 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>GoIT-HW-01-KPasco</title>
+        <title>GoIT-HW-02a-KPasco</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="../goit-markup-hw-02a/css/styles.css" />
+        
     </head>
     <body>
-        <header class="top-header">
-            <nav>
-                <div class="top-header-container">
-                    <a href=""><h3>WEBSTUDIO</h3></a>
-                    <ul>
-                        <li><a href="" target="_blank"> Studio</a></li>
-                        <li><a href="" target="_blank">Portfolio</a></li>
-                        <li><a href="" target="_blank">Contacts</a></li>
+        <!--HEADER-->
+        <header class="header">
+            <nav class="header-nav">
+                <div class="header-logo">
+                <h3><a href="#" class="webstudio-link-a">WEB<span class="webstudio-link-b">STUDIO</span></a></h3>
+                    <ul class="header-list">
+                        <li class="header-list-item"><a class="header-link link" href="studio.html" target="_blank"> Studio</a></li>
+                        <li class="header-list-item"><a class="header-link link" href="portfolio.html" target="_blank">Portfolio</a></li>
+                        <li class="header-list-item"><a class="header-link link" href="contacts.html" target="_blank">Contacts</a></li>
                     </ul>
                 </div>
             </nav>
-            <ul>
-                <li><a href="mailto:info@devstusio.com">info@devstusio.com</a></li>
-                <li><a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
+            <!--CONTACT INFO-->
+            <ul class="contact-info">
+                <li class="header-list-item"><a class="header-contacts" href="mailto:info@devstusio.com">info@devstusio.com</a></li>
+                <li class="header-list-item"><a class="header-contacts" href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a></li>
             </ul>
         </header>
 
+        <!--MAIN SECTION-->
         <main class="main">
-            <div class="main">
+            <div class="main-top">
                 <h1>Effective Solutions for Your Business</h1>
-                <button>Order Service</button>
+                <button class="order-service-btn">Order Service</button>
             </div>
 
-            <div class="main-section1">
+            <div class="main-section">
                 <ul>
                     <li>
                         <h3>Strategy</h3>
@@ -50,7 +59,7 @@
                 </ul>
             </div>
 
-            <div class="main-section2">
+            <div class="main-service">
                 <h2>What are we doing</h2>
                 <ul>
                     <li><img src="../goit-markup-hw-01/images/what are we doing/img1.jpg" alt="img1-desktop" width="360" height="300"></li>
@@ -59,36 +68,38 @@
                 </ul>
             </div>
 
-        <div class="main-section3">
+        <div class="main-team">
             <h2>Our Team</h2>
-            <ul>
-                <li>
-                    <img src="../goit-markup-hw-01/images/team/img-mg.jpg" alt="mark-guerrero" width="264" height="260">
-                    <h3>Mark Guerrero</h3>
-                    <p>Product Manager</p>
-                </li>
-                <li>
-                    <img src="../goit-markup-hw-01/images/team/img-tf.jpg" alt="tom-ford" width="264" height="260">
-                    <h3>Tom Ford</h3>
-                    <p>Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="../goit-markup-hw-01/images/team/img-cg.jpg" alt="camilla-garcia" width="264" height="260">
-                    <h3>Camilla Garcia</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="../goit-markup-hw-01/images/team/img-dw.jpg" alt="daniel-wilson" width="264" height="260">
-                    <h3>Daniel Wilson</h3>
-                    <p>UI Designer</p>
-                </li>
-            </ul>
+            <div class="team-inline">
+                <ul>
+                    <li>
+                        <img src="../goit-markup-hw-01/images/team/img-mg.jpg" alt="mark-guerrero" width="264" height="260">
+                        <h3>Mark Guerrero</h3>
+                        <p>Product Manager</p>
+                    </li>
+                    <li>
+                        <img src="../goit-markup-hw-01/images/team/img-tf.jpg" alt="tom-ford" width="264" height="260">
+                        <h3>Tom Ford</h3>
+                        <p>Frontend Developer</p>
+                    </li>
+                    <li>
+                        <img src="../goit-markup-hw-01/images/team/img-cg.jpg" alt="camilla-garcia" width="264" height="260">
+                        <h3>Camilla Garcia</h3>
+                        <p>Marketing</p>
+                    </li>
+                    <li>
+                        <img src="../goit-markup-hw-01/images/team/img-dw.jpg" alt="daniel-wilson" width="264" height="260">
+                        <h3>Daniel Wilson</h3>
+                        <p>UI Designer</p>
+                    </li>
+                </ul>
+            </div>
         </div>
         </main>
         
         <div class="footer">
-            <a href="" >WEBSTUDIO</a>
-            <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <h3><a href="#" class="webstudio-link-a">WEB<span class="webstudio-link-b">STUDIO</span></a></h3>
+            <p>Increase the flow of customers and <br />sales for your business with digital<br /> marketing & growth solutions.</p>
         </div>
     </body>
  </html>   
